@@ -16,6 +16,8 @@ elasticsearch.password: ${KIBANA_SYSTEM_PASSWORD}
 ## TLS configuration
 ## See instructions from README to enable.
 ##
+server.ssl.certificate: /usr/share/kibana/config/kibana.p12
+server.ssl.keystore.password: ""
 
 ## Communications between Kibana and Elasticsearch
 ## see https://www.elastic.co/guide/en/kibana/current/configuring-tls.html#configuring-tls-kib-es
